@@ -1,4 +1,7 @@
 use Mix.Config
 
 config :maru, MaruExample.Api,
-  http: [port: {:system, "PORT", 3000}]
+  http: [
+    port: {:system, "PORT"},
+    bind_addr: "0.0.0.0",
+  ]

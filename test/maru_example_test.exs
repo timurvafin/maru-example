@@ -1,8 +1,7 @@
 defmodule MaruExampleTest do
-  use ExUnit.Case
-  doctest MaruExample
+  use Maru.Test
 
-  test "greets the world" do
-    assert MaruExample.hello() == :world
+  test "/" do
+    assert "hello" = get("/") |> text_response
   end
 end
