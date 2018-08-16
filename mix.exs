@@ -15,7 +15,7 @@ defmodule MaruExample.MixProject do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
-      applications: [:maru],
+      applications: [:confex, :maru],
       extra_applications: [:logger]
     ]
   end
