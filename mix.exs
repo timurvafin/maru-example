@@ -25,6 +25,7 @@ defmodule MaruExample.MixProject do
       {:maru, "~> 0.13"},
       {:cowboy, "~> 2.3"},
       {:jason, "~> 1.0"},
+      {:confex, "~> 3.3"},
     ]
   end
 end
