@@ -27,6 +27,8 @@ defmodule MaruExample.MixProject do
       {:cowboy, "~> 2.3"},
       {:jason, "~> 1.0"},
       {:confex, "~> 3.3"},
+      {:ex_crypto, "~> 0.9"},
+      {:guardian, "~> 1.1"},
     ]
   end
 end
